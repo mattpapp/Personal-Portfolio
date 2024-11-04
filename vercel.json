@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/desktop_pc/:path*", "destination": "/dist/desktop_pc/:path*" },
+    { "source": "/assets/:path*", "destination": "/src/assets/:path*" }
+  ]
+}
