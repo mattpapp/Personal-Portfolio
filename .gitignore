@@ -1,4 +1,10 @@
-# Logs
+# Ignore dist folder but allow specific files
+dist/*
+!dist/desktop_pc/
+!dist/desktop_pc/scene.gltf
+!dist/desktop_pc/scene.bin
+
+# Existing rules
 logs
 *.log
 npm-debug.log*
@@ -8,7 +14,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
 
