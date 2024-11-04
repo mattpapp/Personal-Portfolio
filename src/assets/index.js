@@ -23,6 +23,7 @@ import apple from "./company/apple.png";
 import reatcode from "./company/reatcode.png";
 import fse from "./company/fse.png";
 import workearly from "./company/workearly.png";
+import bayer from "./company/bayer.png";
 
 import drivify from "./drivify.png";
 import taskmaster from "./taskmaster.png";
@@ -59,4 +60,5 @@ export {
   taskmaster,
   airhopper,
   figmacircle,
+  bayer
 };
