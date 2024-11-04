@@ -1,29 +1,31 @@
-# Ignore dist folder but allow specific files
-dist/*
-!dist/desktop_pc/
-!dist/desktop_pc/scene.gltf
-!dist/desktop_pc/scene.bin
-
-# Existing rules
+# Logs and temporary files
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.tmp
+*.cache
 
-node_modules
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS-generated files
 .DS_Store
+
+# Node modules and dependency folders
+node_modules/
+
+# Specific dist files to ignore (remove these lines if you want everything in `dist`)
+# Example: ignoring any specific generated or temporary files in `dist`
+# dist/temp/
+# dist/*.map
+
+# Build and cache files
+.cache/
+out/
+.vscode/ # Ignore VS Code-specific settings
+
+# Editor backup files
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# TypeScript
+*.tsbuildinfo
