@@ -166,7 +166,7 @@ const projects = [
   {
     name: "Drivify",
     description:
-      "Cross-platform mobile app designed and prototyped in Figma to help users discover and connect with nearby driving schools. Development plan includes Flutter and Dart and the app will feature Google Maps API integration and Firebase for real-time data.",
+      "Cross-platform mobile app designed and prototyped in Figma to help users discover and connect with nearby driving schools. Development plan includes Flutter and Dart and the app will feature Google Maps API.",
     tags: [
       { name: "figma", color: "blue-text-gradient" },
       { name: "flutter", color: "green-text-gradient" },
