@@ -16,7 +16,7 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
-  const isGithubIconVisible = ['AirHopper', 'Tetris (Academic)', 'Transitor (Academic)'].includes(name);
+  const isGithubIconVisible = ['AirHopper', '3D Knapsack Solver', 'Transitor'].includes(name);
   const isFigmaIconVisible = name === 'Drivify';
 
   return (

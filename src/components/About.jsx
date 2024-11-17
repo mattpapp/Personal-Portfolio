@@ -39,9 +39,7 @@ const About = () => {
       >
         I'm a dedicated computer science student and software developer, 
         skilled in various programming languages and frameworks, with practical experience in 
-        full-stack development using technologies like Flutter, React, and Spring Boot. 
-        I thrive on solving complex problems and designing efficient, user-centered applications. 
-        Let's connect to create impactful solutions that drive meaningful results!
+        full-stack development using various technologies. I thrive on solving complex problems and designing efficient, user-centered applications. 
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
