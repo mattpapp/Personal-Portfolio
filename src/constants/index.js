@@ -23,6 +23,7 @@ import {
   tetris,
   airhopper,
   bayer,
+  facerecognition
 } from "../assets";
 
 export const navLinks = [
@@ -150,6 +151,17 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Face Detector",
+    description:
+      "A simple Java application using JavaCV for real-time face detection via your webcam. Features a user-friendly Swing UI with live bounding boxes around detected faces and the ability to take screenshots.",
+    tags: [
+      { name: "java", color: "blue-text-gradient" },
+      { name: "github", color: "gray-text-gradient" },
+    ],
+    image: facerecognition,
+    source_code_link: "https://github.com/mattpapp/Face-Detection",
+  },
   {
     name: "Transitor",
     description:

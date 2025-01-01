@@ -25,6 +25,7 @@ import fse from "./company/fse.png";
 import workearly from "./company/workearly.png";
 import bayer from "./company/bayer.png";
 
+import facerecognition from "./facerecognition.png"
 import drivify from "./drivify.png";
 import taskmaster from "./taskmaster.png";
 import transitor from "./transitor.png";
@@ -60,5 +61,6 @@ export {
   taskmaster,
   airhopper,
   figmacircle,
-  bayer
+  bayer,
+  facerecognition
 };
