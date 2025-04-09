@@ -23,7 +23,8 @@ import {
   tetris,
   airhopper,
   bayer,
-  facerecognition
+  facerecognition,
+  observerZero
 } from "../assets";
 
 export const navLinks = [
@@ -152,12 +153,24 @@ const experiences = [
 
 const projects = [
   {
+    name: "Observer Zero",
+    description:
+      "A web experience that activates and evolves with collective attention: as more users join, visuals and sounds intensify. Built using Socket.io, Canvas API, and Web Audio API.",
+    tags: [
+      { name: "javascript", color: "blue-text-gradient" },
+      { name: "websockets", color: "green-text-gradient" },
+      { name: "canvas", color: "pink-text-gradient" },
+      { name: "webaudio", color: "orange-text-gradient" },
+    ],
+    image: observerZero,
+    source_code_link: "https://github.com/mattpapp/observer-zero",
+  },
+  {
     name: "Face Detector",
     description:
       "A simple Java application using JavaCV for real-time face detection via your webcam. Features a user-friendly Swing UI with live bounding boxes around detected faces and the ability to take screenshots.",
     tags: [
       { name: "java", color: "blue-text-gradient" },
-      { name: "github", color: "gray-text-gradient" },
     ],
     image: facerecognition,
     source_code_link: "https://github.com/mattpapp/Face-Detection",
