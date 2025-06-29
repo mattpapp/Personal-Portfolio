@@ -23,6 +23,8 @@ import {
   tetris,
   airhopper,
   bayer,
+  booking,
+  esa,
   facerecognition,
   observerZero
 } from "../assets";
@@ -106,14 +108,30 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Rapid Prototyping Intern",
+    company_name: "European Space Agency",
+    icon: esa,
+    iconBg: "#FFFFFF",
+    date: "September 2025 - January 2026",
+    points: [],
+  },
+  {
+    title: "Junior Software Engineer I",
+    company_name: "Booking.com",
+    icon: booking,
+    iconBg: "#003580",
+    date: "July 2025 - August 2025",
+    points: [],
+  },
+  {
     title: "Software Engineering Intern",
     company_name: "Bayer",
     icon: bayer,
     iconBg: "#FFFFFF",
-    date: "June 2024 - Present",
+    date: "June 2024 - May 2025",
     points: [
-      "Developing a full-stack project tracker web application for Bayer's internal team using HTML, CSS, JavaScript for the frontend, and Java Spring Boot for the backend.",
-      "Redesigning internal OneNote structure, enhancing organization, interconnectivity, and knowledge management.",
+      "Developed a full-stack project tracker web application for Bayer's internal team using HTML, CSS, JavaScript for the frontend, and Java Spring Boot for the backend.",
+      "Redesigned internal OneNote structure, enhancing organization, interconnectivity, and knowledge management.",
     ],
   },
   {
@@ -139,7 +157,7 @@ const experiences = [
     ],
   },
   {
-    title: "Sales Agent",
+    title: "Chat Agent",
     company_name: "Apple",
     icon: apple,
     iconBg: "#383E56",

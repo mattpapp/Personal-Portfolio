@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import portfoliologo from "./portfoliologo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +7,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import logocircle from "./logocircle.svg";
 import figmacircle from "./figmacircle.png"
 
 import css from "./tech/css.png";
@@ -24,6 +26,8 @@ import reatcode from "./company/reatcode.png";
 import fse from "./company/fse.png";
 import workearly from "./company/workearly.png";
 import bayer from "./company/bayer.png";
+import booking from "./company/booking.png";
+import esa from "./company/esa.png";
 
 import facerecognition from "./facerecognition.png"
 import observerZero from "./observer-zero.png";
@@ -35,6 +39,7 @@ import airhopper from "./airhopper.png";
 
 export {
   logo,
+  portfoliologo,
   backend,
   creator,
   mobile,
@@ -42,6 +47,8 @@ export {
   github,
   menu,
   close,
+  logocircle,
+  figmacircle,
   css,
   figma,
   git,
@@ -61,7 +68,8 @@ export {
   drivify,
   taskmaster,
   airhopper,
-  figmacircle,
+  booking,
+  esa,
   bayer,
   facerecognition,
   observerZero
