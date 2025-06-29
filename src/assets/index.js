@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import mpSignature from "./mp-signature.svg";
 import portfoliologo from "./portfoliologo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -39,6 +40,7 @@ import airhopper from "./airhopper.png";
 
 export {
   logo,
+  mpSignature,
   portfoliologo,
   backend,
   creator,
